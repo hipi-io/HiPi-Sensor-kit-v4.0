@@ -1,26 +1,38 @@
-## SunFounder Sensor Kit V2.0 for RPi 2
-SunFounder Sensor Kit V2.0 for **RaspberryPi 2B**, compatible for **Rev.1 Module B/B+**, **Rev 3 Module B**
+## HiPi Project kit made for Raspberry Pi
+HiPi Project kit
+Made for **Raspberry Pi**
+
+compatible with **all Raspberry Pi up to and including Pi 4, with 40-pin GPIO connectors**
 
 Quick Links:
 
- * [About SunFounder Sensor Kit V2.0](#about_this_kit)
+ * [About HiPi Project kit](#about_this_kit)
  * [Update](#update)
- * [About SunFounder](#about_sunfounder)
+ * [About HiPi](#about_hipi)
  * [License](#license)
  * [Contact us](#contact_us)
 
 <a id="about_this_kit"></a>
-### About SunFounder Sensor Kit V2.0:
-This is a kit with whole bunch of sensors and activaters, provided by SunFounder. The code here contains C and Python and are both for Raspberry Pi. If any error or BUGs, wellcom to post issus in Github, or [Email](#contact_us) us.
+### About HiPi Project kit:
+This sensor kit is suitable for all Raspberry Pi boards with the 40-pin GPIO header including models B+/2B/3B/3B+/4B and the Zero family (some soldering may be required). It includes dozens of different modules for you to learn. We provide simple lessons that correspond to each sensor to help you quickly get started with your own projects! 
+
+If you find any error or BUGs, you are welcome to post issues in Github, or [Email](#contact_us) us.
 
 <a id="update"></a>
 ### Update:
-2020.8.13：
+2020-09-01:
+- fork from the original repo
+- re-brand and modify to our support information
+- update the licence to GNU GPL v3
+
+Original notes:
+
+2020-08-13：
 - add a new method of install system
 - Replace the Raspbian to Raspberry Pi OS
 - Add a way to manually update the wiringPi to 2.52
 
-2020-1-3:
+2020-01-03:
  - Replace the 5v to 3.3V in the user manual.
  - update the English user manual for Raspberry Pi 4.
  
@@ -29,44 +41,76 @@ This is a kit with whole bunch of sensors and activaters, provided by SunFounder
  - update the English user manual for Raspberry Pi 4.
  
 2019-09-06:
-
  - fix the bugs of print function for python3
  - fix the bus of ds1302, Barometer,ds18b20.
 
 2016-10-09:
-
  - Add BMP280 both C and Python
      + Add BMP280 for the Newest kit.
 
 ----------------------------------------------
-<a id="about_sunfounder"></a>
-### About SunFounder
-SunFounder is a technology company focused on Raspberry Pi and Arduino open source community development. Committed to the promotion of open source culture, we strives to bring the fun of electronics making to people all around the world and enable everyone to be a maker. Our products include learning kits, development boards, robots, sensor modules and development tools. In addition to high quality products, SunFounder also offers video tutorials to help you make your own project. If you have interest in open source or making something cool, welcome to join us!
+<a id="about_hipi"></a>
+### About HiPi
+We created BuyaPi.ca/PiShop.us because we love empowering people to create and modify technology in ways that are important to them. We find such satisfaction in inventing, coding, and hacking, and want to share these activities with anyone who's interested. Our products support a large spectrum of opportunities, from a child's first robot interaction to professional development tools.
+
+As North America's largest Raspberry Pi distributor, we work with everyone from local schools to Fortune 500 companies. To ensure that our products are affordable and within the reach of as many people as possible, we run a lean operation. We sell online only to avoid costly retail locations and provide basic sales support. We're a small and dedicated team, working hard to bring you the items you need!
 
 ----------------------------------------------
 <a id="license"></a>
 ### License
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+    Copyright © 2020  HiPi Industries Inc.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied wa rranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-{Repository Name} comes with ABSOLUTELY NO WARRANTY; for details run ./show w. This is free software, and you are welcome to redistribute it under certain conditions; run ./show c for details.
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+HiPi Industries Inc. hereby disclaims all copyright interest in the software provided for use with the HiPi Project kit (educational parts kit for Raspberry Pi).
 
-SunFounder, Inc., hereby disclaims all copyright interest in the program '{Repository Name}' (which makes passes at compilers).
+Martin Boissonneault, 1 September 2020
+Martin Boissonneault, HiPi Project kit team
 
-Mike Huang, 21 August 2015
+Email: support@buyapi.ca, support@pishop.us
 
-Mike Huang, Chief Executive Officer
+Original copyright licence notice:
 
-Email: service@sunfounder.com, support@sunfounder.com
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+    
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of 
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License 
+    along with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+    
+    {Repository Name} comes with ABSOLUTELY NO WARRANTY; for details run ./show w. 
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; run ./show c for details.
+    
+    SunFounder, Inc., hereby disclaims all copyright interest in the program '{Repository Name}' (which makes passes at compilers).
+    
+    Mike Huang, 21 August 2015
+    Mike Huang, Chief Executive Officer
 
 ----------------------------------------------
 <a id="contact_us"></a>
 ### Contact us:
-website:
-    www.sunfounder.com
+Website:
+    www.buyapi.ca
+    www.pishop.us
 
 E-mail:
-    service@sunfounder.com, support@sunfounder.com
+    support@buyapi.ca, support@pishop.us
