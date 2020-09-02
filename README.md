@@ -1,8 +1,8 @@
-## HiPi Project kit made for Raspberry Pi
-HiPi Project kit
-Made for **Raspberry Pi**
+## HiPi Project kit made for Raspberry Pi  
+HiPi Project kit  
+Made for **Raspberry Pi**  
 
-compatible with **all Raspberry Pi up to and including Pi 4, with 40-pin GPIO connectors**
+Compatible with **all Raspberry Pi up to and including Pi 4, with 40-pin GPIO connectors**
 
 Quick Links:
 
@@ -12,6 +12,7 @@ Quick Links:
  * [License](#license)
  * [Contact us](#contact_us)
 
+----------------------------------------------
 <a id="about_this_kit"></a>
 ### About HiPi Project kit:
 This sensor kit is suitable for all Raspberry Pi boards with the 40-pin GPIO header including models B+/2B/3B/3B+/4B and the Zero family (some soldering may be required). It includes dozens of different modules for you to learn. We provide simple lessons that correspond to each sensor to help you quickly get started with your own projects! 
@@ -19,14 +20,13 @@ This sensor kit is suitable for all Raspberry Pi boards with the 40-pin GPIO hea
 If you find any error or BUGs, you are welcome to post issues in Github, or [Email](#contact_us) us.
 
 <a id="update"></a>
-### Update:
+### Update:  
 2020-09-01:
 - fork from the original repo
 - re-brand and modify to our support information
 - update the licence to GNU GPL v3
 
-Original notes:
-
+Original notes:  
 2020-08-13：
 - add a new method of install system
 - Replace the Raspbian to Raspberry Pi OS
@@ -72,16 +72,15 @@ As North America's largest Raspberry Pi distributor, we work with everyone from 
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+        
+    HiPi Industries Inc. hereby disclaims all copyright interest in the software provided for use with the HiPi Project kit (educational parts kit for Raspberry Pi).
     
-HiPi Industries Inc. hereby disclaims all copyright interest in the software provided for use with the HiPi Project kit (educational parts kit for Raspberry Pi).
+    Martin Boissonneault, 1 September 2020
+    Martin Boissonneault, HiPi Project kit team
 
-Martin Boissonneault, 1 September 2020
-Martin Boissonneault, HiPi Project kit team
+    Email: support@buyapi.ca, support@pishop.us
 
-Email: support@buyapi.ca, support@pishop.us
-
-Original copyright licence notice:
-
+#### Original copyright licence notice:  
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation; either version 2 of the License, or
@@ -107,10 +106,11 @@ Original copyright licence notice:
 
 ----------------------------------------------
 <a id="contact_us"></a>
-### Contact us:
-Website:
-    www.buyapi.ca
-    www.pishop.us
+### Contact us:  
+#### Website:  
+www.buyapi.ca  
+www.pishop.us  
 
-E-mail:
-    support@buyapi.ca, support@pishop.us
+#### E-mail:  
+support@buyapi.ca  
+support@pishop.us  
