@@ -118,12 +118,16 @@ def read_dht11_dat():
 
 def main():
 	print ("Raspberry Pi wiringPi DHT11 Temperature test program\n")
+	tt = 0
 	while True:
 		result = read_dht11_dat()
+		tt = tt + 1
 		if result:
 			humidity, temperature = result
 			print ("humidity: %s %%,  Temperature: %s C`" % (humidity, temperature))
 		time.sleep(1)
+		if (tt == 10):
+		    exit(0)
 
 def destroy():
 	GPIO.cleanup()

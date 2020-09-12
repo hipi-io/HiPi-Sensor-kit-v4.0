@@ -1,6 +1,6 @@
-## HiPi Project kit made for Raspberry Pi  
-HiPi Project kit  
-Made for **Raspberry Pi**  
+## HiPi Sensor kit v4.0 for Raspberry Pi  
+HiPi Sensor kit v4.0
+for **Raspberry Pi**
 
 Compatible with **all Raspberry Pi up to and including Pi 4, with 40-pin GPIO connectors**
 
@@ -14,7 +14,7 @@ Quick Links:
 
 ----------------------------------------------
 <a id="about_this_kit"></a>
-### About HiPi Project kit:
+### About HiPi Sensor kit v4.0:
 This sensor kit is suitable for all Raspberry Pi boards with the 40-pin GPIO header including models B+/2B/3B/3B+/4B and the Zero family (some soldering may be required). It includes dozens of different modules for you to learn. We provide simple lessons that correspond to each sensor to help you quickly get started with your own projects! 
 
 If you find any error or BUGs, you are welcome to post issues in Github, or [Email](#contact_us) us.
@@ -76,11 +76,11 @@ As North America's largest Raspberry Pi distributor, we work with everyone from 
     HiPi Industries Inc. hereby disclaims all copyright interest in the software provided for use with the HiPi Project kit (educational parts kit for Raspberry Pi).
     
     Martin Boissonneault, 1 September 2020
-    Martin Boissonneault, HiPi Project kit team
+    Martin Boissonneault, HiPi Sensor kit v4.0 team
 
     Email: support@buyapi.ca, support@pishop.us
 
-#### Original copyright licence notice:  
+#### Original copyright licence:  
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation; either version 2 of the License, or
