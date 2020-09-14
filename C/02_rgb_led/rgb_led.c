@@ -17,9 +17,11 @@ void ledInit(void)
 
 void ledColorSet(uchar r_val, uchar g_val, uchar b_val)
 {
-	softPwmWrite(LedPinRed,   r_val);
-	softPwmWrite(LedPinGreen, g_val);
-	softPwmWrite(LedPinBlue,  b_val);
+	// We need to invert the value because all the LEDs are tied to +3V
+	// 1-0=1 (LED on), 1-1=0 (LED off)
+	softPwmWrite(LedPinRed,   (0xff-r_val));
+	softPwmWrite(LedPinGreen, (0xff-g_val));
+	softPwmWrite(LedPinBlue,  (0xff-b_val));
 }
 
 int main(void)
@@ -35,6 +37,9 @@ int main(void)
 	ledInit();
 
 	while(1){
+		ledColorSet(0xff,0xff,0xff);   //white	
+		delay(500);
+		
 		ledColorSet(0xff,0x00,0x00);   //red	
 		delay(500);
 		ledColorSet(0x00,0xff,0x00);   //green
@@ -44,8 +49,13 @@ int main(void)
 
 		ledColorSet(0xff,0xff,0x00);   //yellow
 		delay(500);
-		ledColorSet(0xff,0x00,0xff);   //pick
+		ledColorSet(0xff,0x00,0xff);   //magenta
 		delay(500);
+		ledColorSet(0x00,0xff,0xff);   //cyan
+		delay(500);
+		ledColorSet(0xff,0xff,0xff);   //white
+		delay(500);
+
 		ledColorSet(0xc0,0xff,0x3e);
 		delay(500);
 
