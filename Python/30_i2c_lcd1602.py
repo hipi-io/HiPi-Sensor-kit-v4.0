@@ -5,12 +5,12 @@ import time
 def setup():
 	LCD1602.init(0x27, 1)	# init(slave address, background light)
 	LCD1602.write(0, 0, 'Greetings!!')
-	LCD1602.write(1, 1, 'from SunFounder')
+	LCD1602.write(1, 1, 'from HiPi.io')
 	time.sleep(2)
 
 def loop():
 	space = '                '
-	greetings = 'Thank you for buying SunFounder Sensor Kit for Raspberry! ^_^'
+	greetings = 'Thank you for buying HiPi.io Sensor Kit for Raspberry Pi! ^_^'
 	greetings = space + greetings
 	while True:
 		tmp = greetings
