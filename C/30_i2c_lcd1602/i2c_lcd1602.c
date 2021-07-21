@@ -94,7 +94,7 @@ void main(){
 	fd = wiringPiI2CSetup(LCDAddr);
 	init();
 	write(0, 0, "Greetings!");
-	write(1, 1, "From SunFounder");
+	write(1, 1, "From HiPi.io");
 	delay(2000);
 	clear();
 }
