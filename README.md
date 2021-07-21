@@ -1,4 +1,5 @@
-## HiPi Sensor kit v4.0 for Raspberry Pi  
+## HiPi Sensor kit v4.0 for Raspberry Pi  - Temporary repository
+## Permanent location will be here: https://github.com/hipi-io/HiPi-Sensor-kit-v4.0
 HiPi Sensor kit v4.0
 for **Raspberry Pi**
 
