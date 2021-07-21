@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+############################################################################
+# LESSON 3 - Light a LED 
+############################################################################
+# This file is a Python3 lesson for:
+# HiPi.io Sensor Kit v4 - https://www.hipi.io/sk4
+# Licence: GPLv3 - https://www.gnu.org/licenses/gpl-3.0.txt
+# File source: https://www.hipi.io/sk4/repo
+#           or https://github.com/hipi-io/HiPi-Sensor-kit-v4.0
+############################################################################
